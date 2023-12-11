@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+    <test name="WebTestSuite">
+        <classes>
+            <class name="test.TestProjectWeb">
+                <methods>
+                    <include name="testWebPageTitle" />
+                    <include name="testClickLogin" />
+                    <include name="testSuccessfulLoginAndLogout" />
+                    <include name="testUrlVideo" />
+                    <include name="testVideoDetails" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
