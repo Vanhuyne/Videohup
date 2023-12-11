@@ -1,5 +1,7 @@
-# Project Title
+# VideoHup
 The website contains many useful videos
+
+![Project Logo](Untitled.png)
 
 ## Installation
 
