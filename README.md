@@ -24,3 +24,8 @@ mvn clean install
   .Change Language
   .Watch Videos
 
+## Technologies Used
+
+- **Backend:** Java, Tomcat
+- **Frontend:** JSP/Servlet , Boostrap 5
+- **Database:** SQLServer
