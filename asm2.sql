@@ -33,21 +33,21 @@ CREATE TABLE history (
 );
 go
 
--- Chèn dữ liệu mẫu cho bảng 'user'
+
 INSERT INTO [user] (username, [password], email, isAdmin)
 VALUES 
     ('user1', 'pass123', 'user1@example.com', 0),
     ('user2', 'pass456', 'user2@example.com', 0),
     ('admin', 'adminpass', 'admin@example.com', 1);
 
-	-- Chèn dữ liệu mẫu cho bảng 'video'
+
 INSERT INTO video (title, href, poster, [description], isActive)
 VALUES 
     (N'Video 1', '1WVFt-3FZEg', 'poster1.jpg', N'Mô tả cho Video 1', 1),
     (N'Video 2', 'Htq2EUgcrKE', 'poster2.jpg', N'Mô tả cho Video 2', 1),
     (N'Video 3', 'uBeWrm_I4Bw', 'poster3.jpg', N'Mô tả cho Video 3', 1);
 
-	-- Chèn dữ liệu mẫu cho bảng 'history'
+
 INSERT INTO history (userId, videoId, isLiked, likeDate)
 VALUES 
     (2, 1, 1, GETDATE()), -- User 1 xem và thích Video 1
