@@ -1,4 +1,4 @@
-# VideoHup
+## VideoHup
 The website contains many useful videos
 
 ![Project Logo](Untitled.png)
@@ -6,13 +6,13 @@ The website contains many useful videos
 ## Installation
 
 ```bash
-# Clone the repository
+## Clone the repository
 git clone https://github.com/Vanhuyne/Videohup.git
 
-# Install dependencies
+## Install dependencies
 cd <project-name>
 
-#Install dependencies using Maven:
+## Install dependencies using Maven:
     ```bash
 mvn clean install
 
@@ -26,6 +26,6 @@ mvn clean install
 
 ## Technologies Used
 
-- **Backend:** Java, Tomcat
-- **Frontend:** JSP/Servlet , Boostrap 5
-- **Database:** SQLServer
+- Backend: Java, Tomcat
+- Frontend: JSP/Servlet , Boostrap 5
+- Database: SQLServer
